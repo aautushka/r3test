@@ -4,7 +4,7 @@ project(r3test)
 
 add_compile_options(-std=gnu++14)
 
-include_directories (../range-v3/include)
+include_directories (/opt/range-v3/include)
 
 set(SRC 
     main
